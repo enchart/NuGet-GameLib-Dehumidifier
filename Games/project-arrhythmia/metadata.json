@@ -1,4 +1,4 @@
-﻿{
+{
   "steam": {
     "appId": 440310,
     "gameDistDepots": [
@@ -26,5 +26,23 @@
     "name": "ProjectArrhythmia.GameLibs.Steam",
     "description": "Stripped and publicized game libraries for modding Project Arrhythmia."
   },
-  "gameVersions": []
+  "gameVersions": [
+    {
+      "buildId": 15145988,
+      "timeUpdated": 1722023527,
+      "gameVersion": "24.7.8",
+      "depots": [
+        {
+          "depotId": 440312,
+          "manifestId": 4162078202937807503
+        }
+      ],
+      "frameworkTargets": [
+        {
+          "tfm": "netstandard2.0",
+          "dependencies": []
+        }
+      ]
+    }
+  ]
 }
