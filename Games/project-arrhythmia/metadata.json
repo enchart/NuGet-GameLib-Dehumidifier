@@ -40,7 +40,12 @@
       "frameworkTargets": [
         {
           "tfm": "netstandard2.0",
-          "dependencies": []
+          "dependencies": [
+            {
+              "name": "UnityEngine.Modules",
+              "version": "2021.1.3"
+            }
+          ]
         }
       ]
     }
