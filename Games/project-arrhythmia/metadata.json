@@ -1,0 +1,30 @@
+﻿{
+  "steam": {
+    "appId": 440310,
+    "gameDistDepots": [
+      {
+        "depotId": 440312,
+        "distributionName": "Windows",
+        "isDefault": true
+      }
+    ]
+  },
+  "processSettings": {
+    "excludeAssemblies": [
+      "Mono*.dll",
+      "netstandard.dll",
+      "System*.dll",
+      "mscorlib.dll"
+    ],
+    "assembliesToPublicise": [
+      "Assembly-CSharp.dll",
+      "Assembly-CSharp-firstpass.dll"
+    ],
+    "isIL2Cpp": true
+  },
+  "nuget": {
+    "name": "ProjectArrhythmia.GameLibs.Steam",
+    "description": "Stripped and publicized game libraries for modding Project Arrhythmia."
+  },
+  "gameVersions": []
+}
